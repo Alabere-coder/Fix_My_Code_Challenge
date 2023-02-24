@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
- User Model
+User Model
 """
 import hashlib
 import uuid
@@ -12,6 +12,7 @@ class User():
     - id: public string unique (uuid)
     - password: private string hash in MD5
     """
+
 
     __password = None
 
